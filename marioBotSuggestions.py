@@ -480,10 +480,10 @@ Please take a look, and feedback is welcome.
 '''
 # Send an e-mail and PDF with the right receiver
 if var_supplier in ['50888' , '50888PRO']:
-    mail_receiver = 'spares.accessoriesuk@-.com;'  # Update
+    mail_receiver = ""
     mail_attachment_2 = main_path + 'documentation\\Mariobot_UK.pdf'
 elif var_supplier in ['9577S' , '9588S']:
-    mail_receiver = 'yolanda.-@-.com;' # Update
+    mail_receiver = ""
     mail_attachment_2 = main_path + 'documentation\\Mariobot_SA.pdf'
 
 
