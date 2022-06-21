@@ -1,3 +1,10 @@
+"""
+This script uses PyAutoGui to control the mouse and keyboard and release orders to South Africa and the UK
+The logic is written on a PDF as a flowchart, as a better way to communicate (not shared)
+
+Author: Mauricio Montilla
+"""
+
 from datetime import datetime
 from re import X
 import time
@@ -473,10 +480,10 @@ Please take a look, and feedback is welcome.
 '''
 # Send an e-mail and PDF with the right receiver
 if var_supplier in ['50888' , '50888PRO']:
-    mail_receiver = 'spares.accessoriesuk@husqvarnagroup.com;'
+    mail_receiver = 'spares.accessoriesuk@-.com;'  # Update
     mail_attachment_2 = main_path + 'documentation\\Mariobot_UK.pdf'
 elif var_supplier in ['9577S' , '9588S']:
-    mail_receiver = 'yolanda.noppe@husqvarnagroup.com;'
+    mail_receiver = 'yolanda.-@-.com;' # Update
     mail_attachment_2 = main_path + 'documentation\\Mariobot_SA.pdf'
 
 
