@@ -1,6 +1,5 @@
 """
-This script controls 
-And then, it formats it for being used in the ERP system, e.g., from DDD DD DD-DD to DDDDDDDDD
+This script uses PyAutoGui to control the mouse and keyboard and place manual orders in the ERP system
 
 Author: Mauricio Montilla
 """
