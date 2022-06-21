@@ -1,3 +1,10 @@
+"""
+This script controls 
+And then, it formats it for being used in the ERP system, e.g., from DDD DD DD-DD to DDDDDDDDD
+
+Author: Mauricio Montilla
+"""
+
 from datetime import datetime
 import time
 
