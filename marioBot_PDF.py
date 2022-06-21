@@ -1,3 +1,11 @@
+"""
+This script identify the SKU numbers in PDF files
+Then, it formats it for being used in the ERP system, e.g., from DDD DD DD-DD to DDDDDDDDD (D is Digit)
+The final result is an Excel file in an e-mail with all the SKUs well-formated
+
+Author: Mauricio Montilla
+"""
+
 import re
 from datetime import datetime
 import warnings
