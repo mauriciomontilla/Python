@@ -1,5 +1,8 @@
 """
-This script 
+This script identify the SKU numbers in strings of texts (in the clipboard)
+And then, it formats it for being used in the ERP system, e.g., from DDD DD DD-DD to DDDDDDDDD
+
+Author: Mauricio Montilla
 """
 
 import time
