@@ -1,3 +1,10 @@
+"""
+This script sends one e-mail to different customers, it used a customized SQL per customer
+The final output is one mail with one Excel file, showing availability both in the warehouse of Europe and Asia
+
+Author: Mauricio Montilla
+"""
+
 from datetime import datetime
 import warnings
 
@@ -115,20 +122,17 @@ for customer_name, customer_number in dict_customers.items():
     </p>"""
 
     if customer_name == "AustraliaNewZeeland":
-        mail_receiver = "chris.briggs@husqvarnagroup.com; glenda.murray@husqvarnagroup.com>; debbie.martin@husqvarnagroup.com;" + \
-        " vanessa.dell@husqvarnagroup.com; erika.pasztuhov@husqvarnagroup.com;"
+        mail_receiver = ""
     elif customer_name == "Brasil":
-        mail_receiver = "fabio.almeida@husqvarnagroup.com; rafhael.diniz@husqvarnagroup.com; ammar.abdo@husqvarnagroup.com;"
+        mail_receiver = ""
     elif customer_name == "AndeanRegion":
-        mail_receiver = "oscar.urrea@husqvarnagroup.com; max.torres@husqvarnagroup.com; maritza.basto@husqvarnagroup.com;" + \
-            "connie.cantellano@husqvarnagroup.com; carlos.leon@husqvarnagroup.com; ammar.abdo@husqvarnagroup.com;" + \
-            "Angel.Torres@husqvarnagroup.com"
+        mail_receiver = ""
     elif customer_name == "India":
-        mail_receiver = "arun.m@husqvarnagroup.com; elin.oskarsson@husqvarnagroup.com;"
+        mail_receiver = ""
     elif customer_name == "SouthAfrica":
-        mail_receiver = "yolanda.noppe@husqvarnagroup.com; jenny.krantz@husqvarnagroup.com;"
+        mail_receiver = ""
     elif customer_name == "SouthEastAsia":
-        mail_receiver = "julie.ang@husqvarnagroup.com; cheewooi.geh@husqvarnagroup.com; jim.andersson@husqvarnagroup.com; merve.turan@husqvarnagroup.com"
+        mail_receiver = ""
 
     mail_attachment = name_excel
     emailer(mail_subject, mail_body, mail_receiver, mail_attachment)
