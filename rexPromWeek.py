@@ -1,3 +1,9 @@
+"""
+This script uses PyAutoGui to control the mouse and keyboard and updates the promise weeks in the ERP system
+
+Author: Mauricio Montilla
+"""
+
 from datetime import datetime
 import time
 import warnings
